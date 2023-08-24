@@ -109,6 +109,7 @@ ul{
 
 #union{
     display: flex;
+    flex-direction: row;
 }
 
 #terceraParte{
@@ -245,6 +246,7 @@ h2{
 
 .texto1{
     padding-bottom: 5px;
+    text-align: center;
 }
 
 .espacioInferior{
@@ -470,4 +472,61 @@ h2{
     #finish{
         width: 1050px;
     }
+}
+
+.fa-regular{
+padding-right: 10px;
+}
+
+.fa-star{
+    padding-right: 20px;
+}
+
+
+@media (max-width: 1280px) {
+header{
+    width:1438px;
+}
+#union{
+    width:1438px;
+}
+
+#terceraParte{
+    width:1438px;
+}
+#four{
+    width:1438px;
+}
+
+#finish{
+    width:1438px;
+}
+
+}
+
+
+
+#parteDerecha {
+    width: 1060px;
+}
+
+.ajustarEspacio{
+    padding-right: 10px;
+    padding-left: 300px;
+}
+
+#I1{
+    padding-right: 30px;
+}
+
+#I2{
+    padding-right: 30px;
+}
+
+#I3{
+    padding-right:10px;
+}
+
+#I4{
+    padding-right: 50px;
 }
