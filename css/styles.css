@@ -1,0 +1,473 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:  #1e172f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+ul li a{
+text-decoration: none;
+color: aliceblue;
+}
+
+li{
+    list-style-type: none;
+    padding-left: 19px;
+}
+
+ul{
+    display: flex;
+    
+}
+
+.color{
+    padding: 10px;
+    border: 1px solid #1e172f;
+    border-radius: 6px;
+    background: linear-gradient(to right, #7b45d5, #0e7ad5 );
+}
+
+#parteIzquierda{
+    background-color: #2e2550;
+    padding-left: 240px;
+    padding-bottom: 70px;
+    padding-right: 300px;
+    
+}
+
+
+.cambiarColor{
+    color: aliceblue;
+    font-size: 80px;
+}
+
+
+.colorTexto{
+    color: aliceblue;
+}
+
+.inferior{
+    padding-bottom: 30px;
+}
+
+
+.cambiarPadding{
+    padding-bottom: 40px;
+}
+
+
+
+.separacion{
+    padding-bottom: 50px;
+    padding-top: 200px;
+}
+
+.recuadroDescarga{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #544d6f;
+
+}
+
+.descarga{
+    border: 1px solid #ffff;
+    padding: 5px;
+    color:  #ee7bb6;
+    background-color: #ffff;
+}
+
+.features{
+    border: 1px solid #ffff;
+    padding: 5px;
+    color: #ffff;
+}
+
+#parteDerecha{
+    background-image: url(../images/hojasFondo.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.ajustarEspacio{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 250px;
+}
+
+#union{
+    display: flex;
+}
+
+#terceraParte{
+    background-color: #f1f2f7;
+
+}
+
+h2{
+    color: #f41486;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.subPagina{
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.modificarTamaño{
+    height: 400px;
+    width: 600px;
+    
+}
+
+.laptop{
+    padding-left: 160px;
+}
+
+.textoTres{
+    padding-left: 150px;
+}
+
+.tituloAgrandar{
+    font-size: 60px;
+    color: #d65b9a;
+    padding-bottom: 40px;
+}
+
+.contenido{
+    padding-bottom: 6px;
+    font-size: 23px;
+    color: #797a7c;
+}
+
+.contenidoPadding{
+    padding-bottom: 25px;
+    font-size: 23px;
+    color: #797a7c;
+}
+
+.otroTitulo{
+    font-size: 40px;
+    color: #ea57a4;
+    padding-bottom: 15px;
+}
+
+.paddingBottom{
+    padding-bottom: 7px;
+    font-size: 20px;
+}
+
+.fontSize{
+    font-size: 20px;
+}
+
+#four{
+    background-color: #1e172f;
+    
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: #f1f2f7;
+    border-radius: 5px;
+    width: 250px;
+    height: auto;
+    
+}
+
+.hojaTamaño{
+    height: 60px;
+    width: 60px;
+    
+}
+
+#parte3{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.modificarTitulo{
+    font-size: 60px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.modificarTexto{
+    font-size: 20px;
+    color: #f1f2f7;
+}
+
+.space{
+    padding-bottom: 50px;
+}
+
+.lite{
+    color: #f41486;
+    padding-bottom: 10px;
+}
+
+.cero{
+    font-size: 26px;
+    float: left;
+    
+}
+
+.free1{
+    padding-left: 7px;
+}
+
+#text{
+    margin-top: 5px;
+}
+
+.free{
+    padding-bottom: 30px;
+}
+
+.texto1{
+    padding-bottom: 5px;
+}
+
+.espacioInferior{
+    padding-bottom: 19px;
+}
+
+.subtext{
+    padding-bottom: 10px;
+}
+
+.vinculo{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #f41787;
+    border-radius: 3px;
+    background: linear-gradient(to right, #ec61a8, #f31d8a );
+    padding: 5px 7px;
+}
+
+.bordeVinculo1{
+    padding: 0px;
+}
+
+.bordeVinculo2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.contencion{
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+#test1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: #f1f2f7;
+    border-radius: 5px;
+    width: 250px;
+    height: auto;
+}
+
+.Standard{
+    color: #36304c;
+    padding-bottom: 10px;
+}
+
+.color2{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #2e2550;
+    border-radius: 3px;
+    background-color: #2e2550;
+    padding: 5px 7px;
+}
+
+.pruebas{
+    clear: left;
+}
+
+.caja{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.miv{
+    color: #ec4d9e;
+}
+
+.caja1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fa-brands{
+    padding-left: 10px;
+}
+
+#finish{
+    padding: 30px 5px ;
+}
+
+@media (min-width:352px)and (max-width:480px){
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header{
+        height: 66px;
+        width: 1000px;
+    }
+
+    #union{
+    width: 1000px;
+    flex-direction: row;
+    }
+
+    #parteIzquierda {
+        padding: 0px;
+        width: auto;
+    }
+
+    #parteDerecha{
+        width: 585px;
+    }
+
+    .ajustarEspacio {
+        padding-right: 100px;
+    }
+
+    #imagenIphone{
+        width: 585px;
+    }
+
+    .separacion{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .media{
+        padding-left: 50px;
+    }
+
+    #terceraParte {
+        width: 1000px;
+        height: auto;
+    }
+
+    .subPagina{
+        flex-direction: column;
+    }
+
+    .laptop{
+        padding-bottom: 30px;
+    }
+
+    #four{
+        width: 1000px;
+    }
+
+    #finish{
+        width: 1000px;
+    }
+}
+
+@media (min-width:481px)and (max-width:768px){
+    header{
+        width: 1240px;
+    }
+
+    #union{
+        width: 1240px;
+    }
+
+    #parteDerecha{
+        width: 400px;
+    }
+
+    .ajustarEspacio{
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+
+    #terceraParte{
+        width: 1240px;
+    }
+
+    #four{
+        width: 1240px;
+    }
+
+    #finish{
+        width: 1240px;
+    }
+}
+
+@media (min-width:769px)and (max-width:920px){
+    header{
+        width: 1050px;
+    }
+
+    #union {
+        width: 1050px;
+        flex-direction: row;
+    }
+
+    #parteIzquierda{
+        padding-right: 50px;
+        padding-left: 100px;
+    }
+
+    #parteDerecha{
+        width: 650px;
+    }
+
+    .ajustarEspacio{
+        padding-right: 100px;
+    }
+
+    #terceraParte {
+        width: 1050px;
+    }
+
+    .subPagina {
+        flex-direction: column;
+    }
+
+    .laptop{
+        padding-bottom: 30px;
+    }
+
+    #four {
+        width: 1050px;
+    }
+
+    #finish{
+        width: 1050px;
+    }
+}
