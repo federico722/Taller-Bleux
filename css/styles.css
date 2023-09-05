@@ -334,6 +334,102 @@ h2{
     padding: 30px 5px ;
 }
 
+@media (max-width: 1280px) {
+    header{
+        width:1438px;
+    }
+    #union{
+        width:1438px;
+    }
+    
+    #terceraParte{
+        width:1438px;
+    }
+    #four{
+        width:1438px;
+    }
+    
+    #finish{
+        width:1438px;
+    }
+    
+    }
+
+    @media (min-width:769px)and (max-width:920px){
+        header{
+            width: 1050px;
+        }
+    
+        #union {
+            width: 1050px;
+            flex-direction: row;
+        }
+    
+        #parteIzquierda{
+            padding-right: 50px;
+            padding-left: 100px;
+        }
+    
+        #parteDerecha{
+            width: 650px;
+        }
+    
+        .ajustarEspacio{
+            padding-right: 100px;
+        }
+    
+        #terceraParte {
+            width: 1050px;
+        }
+    
+        .subPagina {
+            flex-direction: column;
+        }
+    
+        .laptop{
+            padding-bottom: 30px;
+        }
+    
+        #four {
+            width: 1050px;
+        }
+    
+        #finish{
+            width: 1050px;
+        }
+    }
+    
+@media (min-width:481px)and (max-width:768px){
+    header{
+        width: 1500px;
+    }
+
+    #union{
+        width: 1500px;
+    }
+
+    #parteDerecha{
+        width: 400px;
+    }
+
+    .ajustarEspacio{
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+
+    #terceraParte{
+        width: 1500px;
+    }
+
+    #four{
+        width: 1500px;
+    }
+
+    #finish{
+        width: 1500px;
+    }
+}
+
 @media (min-width:352px)and (max-width:480px){
     html, body {
         height: 100%;
@@ -399,80 +495,6 @@ h2{
     }
 }
 
-@media (min-width:481px)and (max-width:768px){
-    header{
-        width: 1240px;
-    }
-
-    #union{
-        width: 1240px;
-    }
-
-    #parteDerecha{
-        width: 400px;
-    }
-
-    .ajustarEspacio{
-        padding-left: 50px;
-        padding-right: 0px;
-    }
-
-    #terceraParte{
-        width: 1240px;
-    }
-
-    #four{
-        width: 1240px;
-    }
-
-    #finish{
-        width: 1240px;
-    }
-}
-
-@media (min-width:769px)and (max-width:920px){
-    header{
-        width: 1050px;
-    }
-
-    #union {
-        width: 1050px;
-        flex-direction: row;
-    }
-
-    #parteIzquierda{
-        padding-right: 50px;
-        padding-left: 100px;
-    }
-
-    #parteDerecha{
-        width: 650px;
-    }
-
-    .ajustarEspacio{
-        padding-right: 100px;
-    }
-
-    #terceraParte {
-        width: 1050px;
-    }
-
-    .subPagina {
-        flex-direction: column;
-    }
-
-    .laptop{
-        padding-bottom: 30px;
-    }
-
-    #four {
-        width: 1050px;
-    }
-
-    #finish{
-        width: 1050px;
-    }
-}
 
 .fa-regular{
 padding-right: 10px;
@@ -481,30 +503,6 @@ padding-right: 10px;
 .fa-star{
     padding-right: 20px;
 }
-
-
-@media (max-width: 1280px) {
-header{
-    width:1438px;
-}
-#union{
-    width:1438px;
-}
-
-#terceraParte{
-    width:1438px;
-}
-#four{
-    width:1438px;
-}
-
-#finish{
-    width:1438px;
-}
-
-}
-
-
 
 #parteDerecha {
     width: 1060px;
